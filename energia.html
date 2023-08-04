@@ -1,0 +1,74 @@
+<!DOCTYPE html> 
+
+<html lang="pt-br"> 
+      
+   <head> 
+      <meta charset="UTF-8"> 
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+      <link rel="stylesheet" href="styles/energia.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+      <link rel="icon" href="Imagens/icone-energia.png" type="image/x-icon">
+      <title>Energias Renováveis</title> 
+   </head>
+ 
+   <body>
+      <header class="header">
+         <h1 class="titulo_principal">Energias Renováveis</h1>
+         <i id="hamburguer" class="material-symbols-outlined" onclick="clickMenu()">menu</i>
+         <menu id="menu_hamburguer" class="cabecalho">
+            <ul>
+               <li class="opcao"><a class="itens" href="index.html">Apresentação</a></li> 
+               <li class="opcao"><a class="itens" href="energia.html">Energias Renováveis</a></li> 
+               <li class="opcao"><a class="itens" href="reciclagem.html">Reciclagem</a></li> 
+               <li class="opcao"><a class="itens" href="Regra3r.html">Regra dos 3R's</a></li> 
+            </ul> 
+         </menu>
+      </header>
+      
+      <main class="texto_principal">
+         <h2>O que é Energias Renováveis?</h2>
+         <p class="parafrafo">Energia Renovável é um termo em que se refere as fontes de energia que são naturais e que são consideradas inesgotáveis a longo prazo, e que são chamadas de energias limpas, pois não emitem gases para a atmosfera como os combustíveis fósseis em que são finitos e poluem muito o meio-ambiente.</p>
+         <p class="paragrafo">Alguns exemplos de fonte de Energias Renováveis são:</p>
+            <ul class="opcoes_energias">
+               <li>→Sol</li>
+               <li>→Vento</li>
+               <li>→Água</li>
+               <li>→Dejetos vegetais e animais</li>
+            </ul>
+         
+         <h3>Solar</h3>
+         <p class="paragrafo">Nesse processo os painéis fotovoltaicos contém células feitas de materiais semicondutores como o silício.</p>
+         <p class="paragrafo">Quando a luz solar atinge essas células elas geram eletricidade, essa energia pode ser usada em uso imediato, armazenada em baterias ou ser conectada a rede elétrica o que possibilita compartilhar com outras pessoas.</p>
+         <img class="imagem" src="Imagens/placasolares.jpg" alt="Casa com painéis de Energia Solar instalados." />
+         <p class="referencia" >Imagem disponível em <a class="site" href="https://pixabay.com/photos/solar-panels-heating-1477987/">PixaBay</a></p>
+     
+         <h3>Eólica</h3>
+         <p class="paragrafo">A Energia Eólica é gerada a partir do vento por meio de aerogeradores, em que a firça dos ventos exerce uma pressão sobre as pás fazendo-as rotacionar o lixo principal em que é conectado a um gerador elétrico, que transforma o movimento mecânico em energia elétrica.</p>
+         <p class="paragrafo">O Paraná possui um Parque Eólico no Município de Palmas com a dívida do Estado de Santa Catarina. O Parque Eólico d e Palmas foi o primeiro a ser construído do sul do Brasil, sua inauguração foi em novembro de 1999.</p>
+         <img class="imagem" src="Imagens/aerogerador.jpg" alt="Foto de vários aerogeradores." />
+         <p class="referencia" >Imagem disponível em <a class="site" href="https://br.freepik.com/fotos-gratis/paisagem-ensolarada-com-moinhos-de-vento_877487.htm#query=E%C3%B3lica&position=9&from_view=search&track=country_rows_v2">FreePik</a></p>
+      
+         <h3>Hidrelétrica</h3>
+         <p class="paragrafo">É um aforma de energia renovável que utiliza a força da água para gerar energia.</p>
+         <p class="paragrafo">É produzida através de usinas hidrelétricas em que a água de rios é armazenada em reservatórios para acionar turbinas que são conectadas a geradores elétricos, assim gerando energia.</p>
+         <p class="paragrafo">No Paraná tem a Usina de Itaipu em que está localizada na cidade de Foz do Iguaçu, na fronteira entre Brasil e Paraguai, ela foi considerada a maior usina hidrelétrica do mundo desde a sua inauguração no ano de 1984 até 2019, que perdeu sua colocação para a Usina de Três Gargantas que está localizada na China.</p>
+         <img class="imagem" src="Imagens/Itaipu.jpeg" alt="Foto da aérea da Usina de Itaipu." />
+         <p class="referencia">Foto tirada por Alexandre Marchetti. Disponível em <a class="site" href="https://www.clickfozdoiguacu.com.br/itaipu-binacional-comeca-o-ano-com-recorde-de-producao/">CkickFoz.</a></p>
+      
+         <h3>Biogás</h3>
+         <p class="paragrafo">Esse processo que gera energia a partir de dejetos vegetais e animais é conhecida como biogás ou biometano. Essas matérias são decompostos em condições anaeróbicas, liberando metano, que pode ser usado como combustível.</p>
+         <p class="paragrafo">Dentre as matérias que são utilizadas, se destacam os restos de alimentos, resíduos agrícolas, estercos de animais e lodo de estações de tratamento de esgoto. Esses materiais são processados em biodigestores, onde ocorre a fermentação anaeróbica para produção do biogás.</p>
+         <img class="imagem" src="Imagens/biogaz.jpg" alt="Estufa de Biogás" />
+         <p class="referencia">Disponível em <a class="site" href="https://pixabay.com/pt/photos/biog%C3%A1s-recipiente-pregui%C3%A7oso-2919235/">PixaBay</a></p>
+      </main>
+      
+      <script>
+         function clickMenu() {
+            if (menu_hamburguer.style.display == 'block') {
+               menu_hamburguer.style.display = 'none'
+            } else {
+               menu_hamburguer.style.display = 'block'
+            }
+         }
+      </script>
+   </body>
