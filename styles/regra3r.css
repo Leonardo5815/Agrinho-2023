@@ -1,0 +1,62 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+     width: auto; 
+     height: 100%; 
+     text-align: center;
+}
+
+header {
+     padding: 10px; 
+     background-color: #088004;
+ }
+
+h1 {
+   font-family: 'Suez One', serif;
+   color: #FFFFFF ;
+}
+
+main { 
+     margin: 0;
+     padding: 10px;
+     background-color: #FFFFFF;
+     font-family: 'Patrick Hand', cursive;}
+
+menu {
+   display: none;
+}
+
+menu ul {
+   list-style-type: none;
+}
+
+menu a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  background-color: #83bb73;
+  color: #000000;
+  border-top: 2px solid #369d2a;
+  cursor: pointer;
+}
+
+menu a:hover{
+   background-color: #079900;
+}
+
+i#hamburguer {
+   background-color: #079900;
+   color: #FFFFFF;
+   display: block;
+   text-align: center;
+   cursor: pointer;
+}
+
+i#hamburguer:hover {
+   background-color: #639a55;
+   color: #FFFFFF;
+}

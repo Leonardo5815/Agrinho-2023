@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family= Lora & family= Suez+One & display=swap') ;
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+     width: auto; 
+     height: 100%; 
+     text-align: center;
+}
+
+.header {
+      padding: 10px; 
+      background-color: #088004;
+      font-family: 'Suez One', serif;
+ }
+
+.titulo_principal {
+   color: #FFFFFF ;
+}
+
+.cabecalho {
+   display: none;
+}
+
+.cabecalho .opcao {
+   list-style-type: none;
+}
+
+.cabecalho .itens {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  background-color: #83bb73;
+  color: #000000;
+  border-top: 2px solid #369d2a;
+  cursor: pointer;
+}
+
+.cabecalho .itens:hover{
+   background-color: #079900;
+}
+
+i#hamburguer {
+   background-color: #079900;
+   color: #FFFFFF;
+   display: block;
+   text-align: center;
+   cursor: pointer;
+}
+
+i#hamburguer:hover {
+   background-color: #639a55;
+   color: #FFFFFF;
+}
+
+.texto_principal { 
+     margin: 0;
+     padding: 10px;
+     background-color: #FFFFFF;
+     font-family: 'Patrick Hand', cursive;
+}
+
+.texto_principal .opcoes_energias {
+   text-align: left;
+}
+
+.texto_principal .paragrafo {
+   line-height: 1.5;
+}
+
+.imagem { 
+     height: 200px;
+     box-shadow: 10px 10px 16px #00000070; 
+     border-radius: 10px;
+     margin-top: 10px;
+ }
+ 
+.referencia {
+   font-size: 9px;
+   color: #949494;
+   text-decoration: none;
+   margin-top: 10px;
+   margin-bottom: 20px;
+}
+
+.referencia .site {
+   text-decoration: none;
+   color: #949494;
+}
