@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family= Lora & family= Suez+One & display=swap') ;
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
 * {
    margin: 0;
    padding: 0;
@@ -59,4 +62,40 @@ i#hamburguer {
 i#hamburguer:hover {
    background-color: #639a55;
    color: #FFFFFF;
+}
+
+.parte_principal { 
+     margin: 0;
+     padding: 10px;
+     background-color: #FFFFFF;
+     font-family: 'Patrick Hand', cursive;
+}
+
+.parte_principal .paragrafo {
+   line-height: 1.5;
+}
+
+.imagem { 
+     height: 200px;
+     box-shadow: 10px 10px 16px #00000070; 
+     border-radius: 10px;
+     margin-top: 10px;
+}
+
+.referencia {
+   font-size: 9px;
+   color: #949494;
+   text-decoration: none;
+   margin-top: 10px;
+   margin-bottom: 20px;
+}
+
+.referencia .referencia_site {
+   text-decoration: none;
+   color: #949494;
+   cursor: pointer;
+}
+
+.referencia .referencia_site :hover {
+   color: #000000;
 }
